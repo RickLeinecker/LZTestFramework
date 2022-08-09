@@ -1,0 +1,657 @@
+
+================================================================
+Running Canterbury test cases...
+================================================================
+
+
+  ++++++++++++++++++++++++++++
+  + [Test Case] Canterbury01 +
+  ++++++++++++++++++++++++++++
+
+  Possible Error: Compressed Files canterbury01.Z and canterburyCompress01.Z do not match.
+
+  ====================
+  Compression Runtimes
+  ====================
+
+  Average LZW runtime for compressing canterbury01 in seconds: 
+  0.0000089252300000
+
+  Average Linux Compress runtime for compressing canterbury01 in seconds: 
+  0.0000029435500000
+
+  Relative compression runtime: 
+  3.0321312700650571
+
+
+  ==================
+  Compression Ratios
+  ==================
+
+  Original input size: 152089 bytes
+  Test  compressed file size: 62248 bytes
+  Linux compressed file size: 62247 bytes
+
+  Tested compression ratio: 
+  2.4432752859529625
+
+  Linux Compress compression ratio: 
+  2.4433145372467751
+
+  Ratio of tested compressed file size to Linux compressed file size: 
+  1.0000160650312464
+
+
+  ======================
+  Decompression Runtimes
+  ======================
+
+  Average LZW runtime for decompressing canterbury01.Z in seconds: 
+  0.0000114393200000
+
+  Average Linux Compress runtime for decompressing canterburyCompress01.Z in seconds: 
+  0.0000031214000000
+
+
+  Relative decompression runtime: 
+  3.6648042545011856
+
+  WARNING: Test runtime longer than control.
+
+  /\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/
+  FAILURE: compression ratio inferior to control.
+  /\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+
+  ++++++++++++++++++++++++++++
+  + [Test Case] Canterbury02 +
+  ++++++++++++++++++++++++++++
+
+
+  ====================
+  Compression Runtimes
+  ====================
+
+  Average LZW runtime for compressing canterbury02 in seconds: 
+  0.0000114393200000
+
+  Average Linux Compress runtime for compressing canterbury02 in seconds: 
+  0.0000031214000000
+
+  Relative compression runtime: 
+  3.6648042545011856
+
+
+  ==================
+  Compression Ratios
+  ==================
+
+  Original input size: 125183 bytes
+  Test  compressed file size: 54990 bytes
+  Linux compressed file size: 54990 bytes
+
+  Tested compression ratio: 
+  2.2764684488088744
+
+  Linux Compress compression ratio: 
+  2.2764684488088744
+
+  Ratio of tested compressed file size to Linux compressed file size: 
+  1.0000000000000000
+
+
+  ======================
+  Decompression Runtimes
+  ======================
+
+  Average LZW runtime for decompressing canterbury02.Z in seconds: 
+  0.0000131033600000
+
+  Average Linux Compress runtime for decompressing canterburyCompress02.Z in seconds: 
+  0.0000025507200000
+
+
+  Relative decompression runtime: 
+  5.1371220674946674
+
+  WARNING: Test runtime longer than control.
+  PASS!
+
+
+  ++++++++++++++++++++++++++++
+  + [Test Case] Canterbury03 +
+  ++++++++++++++++++++++++++++
+
+  Possible Error: Compressed Files canterbury03.Z and canterburyCompress03.Z do not match.
+
+  ====================
+  Compression Runtimes
+  ====================
+
+  Average LZW runtime for compressing canterbury03 in seconds: 
+  0.0000131033600000
+
+  Average Linux Compress runtime for compressing canterbury03 in seconds: 
+  0.0000025507200000
+
+  Relative compression runtime: 
+  5.1371220674946674
+
+
+  ==================
+  Compression Ratios
+  ==================
+
+  Original input size: 311288 bytes
+  Test  compressed file size: 120138 bytes
+  Linux compressed file size: 120137 bytes
+
+  Tested compression ratio: 
+  2.5910869167124475
+
+  Linux Compress compression ratio: 
+  2.5911084844802184
+
+  Ratio of tested compressed file size to Linux compressed file size: 
+  1.0000083238302937
+
+
+  ======================
+  Decompression Runtimes
+  ======================
+
+  Average LZW runtime for decompressing canterbury03.Z in seconds: 
+  0.0000215414000000
+
+  Average Linux Compress runtime for decompressing canterburyCompress03.Z in seconds: 
+  0.0000028742300000
+
+
+  Relative decompression runtime: 
+  7.4946681372054433
+
+  WARNING: Test runtime longer than control.
+
+  /\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/
+  FAILURE: compression ratio inferior to control.
+  /\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+
+  ++++++++++++++++++++++++++++
+  + [Test Case] Canterbury04 +
+  ++++++++++++++++++++++++++++
+
+  Possible Error: Compressed Files canterbury04.Z and canterburyCompress04.Z do not match.
+
+  ====================
+  Compression Runtimes
+  ====================
+
+  Average LZW runtime for compressing canterbury04 in seconds: 
+  0.0000215414000000
+
+  Average Linux Compress runtime for compressing canterbury04 in seconds: 
+  0.0000028742300000
+
+  Relative compression runtime: 
+  7.4946681372054433
+
+
+  ==================
+  Compression Ratios
+  ==================
+
+  Original input size: 286685 bytes
+  Test  compressed file size: 121064 bytes
+  Linux compressed file size: 121063 bytes
+
+  Tested compression ratio: 
+  2.3680450009912111
+
+  Linux Compress compression ratio: 
+  2.3680645614266953
+
+  Ratio of tested compressed file size to Linux compressed file size: 
+  1.0000082601620643
+
+
+  ======================
+  Decompression Runtimes
+  ======================
+
+  Average LZW runtime for decompressing canterbury04.Z in seconds: 
+  0.0000202428100000
+
+  Average Linux Compress runtime for decompressing canterburyCompress04.Z in seconds: 
+  0.0000023257200000
+
+
+  Relative decompression runtime: 
+  8.7038895481829268
+
+  WARNING: Test runtime longer than control.
+
+  /\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/
+  FAILURE: compression ratio inferior to control.
+  /\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+
+  ++++++++++++++++++++++++++++
+  + [Test Case] Canterbury05 +
+  ++++++++++++++++++++++++++++
+
+
+  ====================
+  Compression Runtimes
+  ====================
+
+  Average LZW runtime for compressing canterbury05 in seconds: 
+  0.0000202428100000
+
+  Average Linux Compress runtime for compressing canterbury05 in seconds: 
+  0.0000023257200000
+
+  Relative compression runtime: 
+  8.7038895481829268
+
+
+  ==================
+  Compression Ratios
+  ==================
+
+  Original input size: 24606 bytes
+  Test  compressed file size: 11317 bytes
+  Linux compressed file size: 11317 bytes
+
+  Tested compression ratio: 
+  2.1742511266236635
+
+  Linux Compress compression ratio: 
+  2.1742511266236635
+
+  Ratio of tested compressed file size to Linux compressed file size: 
+  1.0000000000000000
+
+
+  ======================
+  Decompression Runtimes
+  ======================
+
+  Average LZW runtime for decompressing canterbury05.Z in seconds: 
+  0.0000039229800000
+
+  Average Linux Compress runtime for decompressing canterburyCompress05.Z in seconds: 
+  0.0000022658400000
+
+
+  Relative decompression runtime: 
+  1.7313579070013771
+
+  WARNING: Test runtime longer than control.
+  PASS!
+
+
+  ++++++++++++++++++++++++++++
+  + [Test Case] Canterbury06 +
+  ++++++++++++++++++++++++++++
+
+  Possible Error: Compressed Files canterbury06.Z and canterburyCompress06.Z do not match.
+
+  ====================
+  Compression Runtimes
+  ====================
+
+  Average LZW runtime for compressing canterbury06 in seconds: 
+  0.0000039229800000
+
+  Average Linux Compress runtime for compressing canterbury06 in seconds: 
+  0.0000022658400000
+
+  Relative compression runtime: 
+  1.7313579070013771
+
+
+  ==================
+  Compression Ratios
+  ==================
+
+  Original input size: 11151 bytes
+  Test  compressed file size: 4965 bytes
+  Linux compressed file size: 4964 bytes
+
+  Tested compression ratio: 
+  2.2459214501510574
+
+  Linux Compress compression ratio: 
+  2.2463738920225627
+
+  Ratio of tested compressed file size to Linux compressed file size: 
+  1.0002014504431909
+
+
+  ======================
+  Decompression Runtimes
+  ======================
+
+  Average LZW runtime for decompressing canterbury06.Z in seconds: 
+  0.0000031972200000
+
+  Average Linux Compress runtime for decompressing canterburyCompress06.Z in seconds: 
+  0.0000022758300000
+
+
+  Relative decompression runtime: 
+  1.4048588866479483
+
+  WARNING: Test runtime longer than control.
+
+  /\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/
+  FAILURE: compression ratio inferior to control.
+  /\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+
+  ++++++++++++++++++++++++++++
+  + [Test Case] Canterbury07 +
+  ++++++++++++++++++++++++++++
+
+
+  ====================
+  Compression Runtimes
+  ====================
+
+  Average LZW runtime for compressing canterbury07 in seconds: 
+  0.0000031972200000
+
+  Average Linux Compress runtime for compressing canterbury07 in seconds: 
+  0.0000022758300000
+
+  Relative compression runtime: 
+  1.4048588866479483
+
+
+  ==================
+  Compression Ratios
+  ==================
+
+  Original input size: 3722 bytes
+  Test  compressed file size: 1813 bytes
+  Linux compressed file size: 1813 bytes
+
+  Tested compression ratio: 
+  2.0529509100937671
+
+  Linux Compress compression ratio: 
+  2.0529509100937671
+
+  Ratio of tested compressed file size to Linux compressed file size: 
+  1.0000000000000000
+
+
+  ======================
+  Decompression Runtimes
+  ======================
+
+  Average LZW runtime for decompressing canterbury07.Z in seconds: 
+  0.0000024381100000
+
+  Average Linux Compress runtime for decompressing canterburyCompress07.Z in seconds: 
+  0.0000025986400000
+
+
+  Relative decompression runtime: 
+  0.9382253794292399
+
+  WARNING: Test runtime longer than control.
+  PASS!
+
+
+  ++++++++++++++++++++++++++++
+  + [Test Case] Canterbury08 +
+  ++++++++++++++++++++++++++++
+
+  Possible Error: Compressed Files canterbury08.Z and canterburyCompress08.Z do not match.
+
+  ====================
+  Compression Runtimes
+  ====================
+
+  Average LZW runtime for compressing canterbury08 in seconds: 
+  0.0000024381100000
+
+  Average Linux Compress runtime for compressing canterbury08 in seconds: 
+  0.0000025986400000
+
+  Relative compression runtime: 
+  0.9382253794292399
+
+
+  ==================
+  Compression Ratios
+  ==================
+
+  Original input size: 401359 bytes
+  Test  compressed file size: 122402 bytes
+  Linux compressed file size: 122401 bytes
+
+  Tested compression ratio: 
+  3.2790232185748600
+
+  Linux Compress compression ratio: 
+  3.2790500077613745
+
+  Ratio of tested compressed file size to Linux compressed file size: 
+  1.0000081698678933
+
+
+  ======================
+  Decompression Runtimes
+  ======================
+
+  Average LZW runtime for decompressing canterbury08.Z in seconds: 
+  0.0000254893000000
+
+  Average Linux Compress runtime for decompressing canterburyCompress08.Z in seconds: 
+  0.0000021996200000
+
+
+  Relative decompression runtime: 
+  11.5880470263045421
+
+  WARNING: Test runtime longer than control.
+
+  /\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/
+  FAILURE: compression ratio inferior to control.
+  /\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+
+  ++++++++++++++++++++++++++++
+  + [Test Case] Canterbury09 +
+  ++++++++++++++++++++++++++++
+
+  Possible Error: Compressed Files canterbury09.Z and canterburyCompress09.Z do not match.
+
+  ====================
+  Compression Runtimes
+  ====================
+
+  Average LZW runtime for compressing canterbury09 in seconds: 
+  0.0000254893000000
+
+  Average Linux Compress runtime for compressing canterbury09 in seconds: 
+  0.0000021996200000
+
+  Relative compression runtime: 
+  11.5880470263045421
+
+
+  ==================
+  Compression Ratios
+  ==================
+
+  Original input size: 513323 bytes
+  Test  compressed file size: 62216 bytes
+  Linux compressed file size: 62215 bytes
+
+  Tested compression ratio: 
+  8.2506589944708750
+
+  Linux Compress compression ratio: 
+  8.2507916097404159
+
+  Ratio of tested compressed file size to Linux compressed file size: 
+  1.0000160732942216
+
+
+  ======================
+  Decompression Runtimes
+  ======================
+
+  Average LZW runtime for decompressing canterbury09.Z in seconds: 
+  0.0000191125800000
+
+  Average Linux Compress runtime for decompressing canterburyCompress09.Z in seconds: 
+  0.0000025342400000
+
+
+  Relative decompression runtime: 
+  7.5417403245154357
+
+  WARNING: Test runtime longer than control.
+
+  /\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/
+  FAILURE: compression ratio inferior to control.
+  /\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+
+  ++++++++++++++++++++++++++++
+  + [Test Case] Canterbury10 +
+  ++++++++++++++++++++++++++++
+
+
+  ====================
+  Compression Runtimes
+  ====================
+
+  Average LZW runtime for compressing canterbury10 in seconds: 
+  0.0000191125800000
+
+  Average Linux Compress runtime for compressing canterbury10 in seconds: 
+  0.0000025342400000
+
+  Relative compression runtime: 
+  7.5417403245154357
+
+
+  ==================
+  Compression Ratios
+  ==================
+
+  Original input size: 38240 bytes
+  Test  compressed file size: 20102 bytes
+  Linux compressed file size: 20102 bytes
+
+  Tested compression ratio: 
+  1.9022982787782310
+
+  Linux Compress compression ratio: 
+  1.9022982787782310
+
+  Ratio of tested compressed file size to Linux compressed file size: 
+  1.0000000000000000
+
+
+  ======================
+  Decompression Runtimes
+  ======================
+
+  Average LZW runtime for decompressing canterbury10.Z in seconds: 
+  0.0000046610900000
+
+  Average Linux Compress runtime for decompressing canterburyCompress10.Z in seconds: 
+  0.0000021915200000
+
+
+  Relative decompression runtime: 
+  2.1268754106738705
+
+  WARNING: Test runtime longer than control.
+  PASS!
+
+
+  ++++++++++++++++++++++++++++
+  + [Test Case] Canterbury11 +
+  ++++++++++++++++++++++++++++
+
+  Possible Error: Compressed Files canterbury11.Z and canterburyCompress11.Z do not match.
+
+  ====================
+  Compression Runtimes
+  ====================
+
+  Average LZW runtime for compressing canterbury11 in seconds: 
+  0.0000046610900000
+
+  Average Linux Compress runtime for compressing canterbury11 in seconds: 
+  0.0000021915200000
+
+  Relative compression runtime: 
+  2.1268754106738705
+
+
+  ==================
+  Compression Ratios
+  ==================
+
+  Original input size: 4227 bytes
+  Test  compressed file size: 2340 bytes
+  Linux compressed file size: 2339 bytes
+
+  Tested compression ratio: 
+  1.8064102564102564
+
+  Linux Compress compression ratio: 
+  1.8071825566481403
+
+  Ratio of tested compressed file size to Linux compressed file size: 
+  1.0004275331338179
+
+
+  ======================
+  Decompression Runtimes
+  ======================
+
+  Average LZW runtime for decompressing canterbury11.Z in seconds: 
+  0.0000024265700000
+
+  Average Linux Compress runtime for decompressing canterburyCompress11.Z in seconds: 
+  0.0000028566300000
+
+
+  Relative decompression runtime: 
+  0.8494519766298050
+
+  WARNING: Test runtime longer than control.
+
+  /\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/
+  FAILURE: compression ratio inferior to control.
+  /\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+
+================================================================
+Final Report
+================================================================
+                           .
+                          ":"
+                        ___:____     |"\/"|
+                      ,'        `.    \  /
+                      |  o        \___/  |
+                    ~^~^~^~^~^~^~^~^~^~^~^~^~
+
+                           (fail whale)
+
+  The fail whale is friendly and adorable! He is not here to
+  demoralize you, but rather, to bring you comfort and joy
+  in your time of need. "Keep plugging away," he says! "You
+  can do this!"
+
+  Text animals courtesy of Dr. Sean Szumlanski.
