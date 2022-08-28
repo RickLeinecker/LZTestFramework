@@ -39,7 +39,7 @@ class LZW
     // Symbol Table
     double bitsPerSym;
     int symTabCapacity;
-    int currSymbolEntry = ASCII_OFFSET + 1;
+    unsigned int currSymbolEntry = ASCII_OFFSET + 1;
     unordered_map<string, unsigned int> symbolTable;
 
     // Inverse Symbol Table, for decompression
@@ -51,7 +51,7 @@ class LZW
     char workingString[MAX_STR_LEN];
 
     // Generates the output file name based on the input file name and
-    // whether the program is compressing or decompressing. 
+    // whether the program is compressing or decompressing.
     char *genOutName(bool compress);
 
     // This appends a single byte to the working string, writes it to the decompression
@@ -61,22 +61,22 @@ class LZW
 
     // Processes a symbol for potential substitution from the symbol table, and then either
     // pushes it to the decompression stream as the single byte it represents or fetches the sequence
-    // of substituted bytes from the symbol table and pushes that sequence instead. 
+    // of substituted bytes from the symbol table and pushes that sequence instead.
     void processSymbol(unsigned int symbol);
 
-    // Processes working string for potential entry into the symbol table. 
+    // Processes working string for potential entry into the symbol table.
     bool addToTable(string wrkStr, char singleByte);
 
-    // Pushes a symbol onto the compression stream. 
+    // Pushes a symbol onto the compression stream.
     void pushToCompStream(unsigned int symbol, int symbolBits);
 
-    // Pushes a symbol onto the decompresion stream. 
+    // Pushes a symbol onto the decompresion stream.
     void processDecompStream(char readByte, ofstream &outputFile);
 
     public:
     LZW(char *inputFileName);
 
-    // Performs LZW compression on input stream specified by the inputFilename object field. 
+    // Performs LZW compression on input stream specified by the inputFilename object field.
     void compress();
 
     void decompress();

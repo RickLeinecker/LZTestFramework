@@ -382,6 +382,15 @@ void LZW::compress()
         it = symbolTable.find(wrkStr);
         if (it != symbolTable.end())
         {
+            // If there is no next byte, push the symbol
+            // representing the working string. 
+            if (inputFile.eof())
+            {
+                symbol |= oldIt->second;
+                pushToCompStream(symbol, symbolBits);
+                break;
+            }
+
             continue;
         }
 
@@ -431,22 +440,23 @@ void LZW::compress()
     }
 
     // Empty the buffer onto the output stream.
-    buffer <<= buffSpace;
     char pushByte = 0b00000000;
     char firstBit = 0b00000000;
     char mask = 0b00000001;
-    for (int i = 0; i < BYTE_SIZE; i++)
+    if (buffSpace != BYTE_SIZE)
     {
-        firstBit = buffer & mask;
-        buffer >>= 1;
+        buffer <<= buffSpace;
+        for (int i = 0; i < BYTE_SIZE; i++)
+        {
+            firstBit = buffer & mask;
+            buffer >>= 1;
 
-        pushByte <<= 1;
-        pushByte |= firstBit;
+            pushByte <<= 1;
+            pushByte |= firstBit;
+        }
+        // Output final padded byte.
+        outputFile.write(&pushByte, 1);
     }
-
-    // Output final padded byte.
-    outputFile.write(&pushByte, 1);
-    unsigned int hexPrint = pushByte;
 
     outputFile.close();
     inputFile.close();
@@ -502,14 +512,14 @@ void LZW::decompress()
         // Read one byte from input.
         inputFile.read(&readByte, 1);
 
+        // Build symbols from input bytes and substitute, if possible.
+        processDecompStream(readByte, outputFile);
+
         // Terminate stream if file or stream ends.
         if (inputFile.eof())
         {
             break;
         }
-
-        // Build symbols from input bytes and substitute, if possible.
-        processDecompStream(readByte, outputFile);
     }
 
     outputFile.close();

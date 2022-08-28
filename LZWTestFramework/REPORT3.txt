@@ -1,0 +1,301 @@
+
+================================================================
+Running Large test cases...
+================================================================
+
+
+  ++++++++++++++++++++++++++++
+  + [Test Case] Large01 +
+  ++++++++++++++++++++++++++++
+
+  Original File: 
+  bible.txt
+
+  ====================
+  Compression Runtimes
+  ====================
+
+  Average LZW runtime for compressing large01 in seconds: 
+  0.0040358990000000
+
+  Average Linux Compress runtime for compressing large01 in seconds: 
+  0.0022919090000000
+
+  Relative compression runtime: 
+  1.7609333529385329
+
+
+  ==================
+  Compression Ratios
+  ==================
+
+  Original input size: 352213 bytes
+  Test  compressed file size: 120455 bytes
+  Linux compressed file size: 120455 bytes
+
+  Tested compression ratio: 
+  2.9240214187870990
+
+  Linux Compress compression ratio: 
+  2.9240214187870990
+
+  Ratio of tested compressed file size to Linux compressed file size: 
+  1.0000000000000000
+
+
+  ======================
+  Decompression Runtimes
+  ======================
+
+  Average LZW runtime for decompressing large01.Z in seconds: 
+  0.0038817650000000
+
+  Average Linux Compress runtime for decompressing largeCompress01.Z in seconds: 
+  0.0021959200000000
+
+
+  Relative decompression runtime: 
+  1.7677169477940908
+
+  WARNING: Test runtime longer than control.
+  PASS!
+
+
+  ++++++++++++++++++++++++++++
+  + [Test Case] Large02 +
+  ++++++++++++++++++++++++++++
+
+  Original File: 
+  E.coli
+
+  ====================
+  Compression Runtimes
+  ====================
+
+  Average LZW runtime for compressing large02 in seconds: 
+  0.0078682120000000
+
+  Average Linux Compress runtime for compressing large02 in seconds: 
+  0.0043911210000000
+
+  Relative compression runtime: 
+  1.7918458635050138
+
+
+  ==================
+  Compression Ratios
+  ==================
+
+  Original input size: 450505 bytes
+  Test  compressed file size: 122077 bytes
+  Linux compressed file size: 122077 bytes
+
+  Tested compression ratio: 
+  3.6903347886989359
+
+  Linux Compress compression ratio: 
+  3.6903347886989359
+
+  Ratio of tested compressed file size to Linux compressed file size: 
+  1.0000000000000000
+
+
+  ======================
+  Decompression Runtimes
+  ======================
+
+  Average LZW runtime for decompressing large02.Z in seconds: 
+  0.0042473000000000
+
+  Average Linux Compress runtime for decompressing largeCompress02.Z in seconds: 
+  0.0022349170000000
+
+
+  Relative decompression runtime: 
+  1.9004285170321762
+
+  WARNING: Test runtime longer than control.
+  PASS!
+
+
+  ++++++++++++++++++++++++++++
+  + [Test Case] Large03 +
+  ++++++++++++++++++++++++++++
+
+  Original File: 
+  world192.txt
+
+  ====================
+  Compression Runtimes
+  ====================
+
+  Average LZW runtime for compressing large03 in seconds: 
+  0.0079917740000000
+
+  Average Linux Compress runtime for compressing large03 in seconds: 
+  0.0044098380000000
+
+  Relative compression runtime: 
+  1.8122602236181919
+
+
+  ==================
+  Compression Ratios
+  ==================
+
+  Original input size: 294876 bytes
+  Test  compressed file size: 122477 bytes
+  Linux compressed file size: 122477 bytes
+
+  Tested compression ratio: 
+  2.4076030601663985
+
+  Linux Compress compression ratio: 
+  2.4076030601663985
+
+  Ratio of tested compressed file size to Linux compressed file size: 
+  1.0000000000000000
+
+
+  ======================
+  Decompression Runtimes
+  ======================
+
+  Average LZW runtime for decompressing large03.Z in seconds: 
+  0.0039681660000000
+
+  Average Linux Compress runtime for decompressing largeCompress03.Z in seconds: 
+  0.0022003620000000
+
+
+  Relative decompression runtime: 
+  1.8034150744286623
+
+  WARNING: Test runtime longer than control.
+  PASS!
+
+
+  ++++++++++++++++++++++++++++
+  + [Test Case] Large04 +
+  ++++++++++++++++++++++++++++
+
+  Original File: 
+  INVALID FILE
+  Possible Error: Compressed Files large04.Z and largeCompress04.Z do not match.
+
+  ====================
+  Compression Runtimes
+  ====================
+
+  Average LZW runtime for compressing large04 in seconds: 
+  5.5810597880000001
+
+  Average Linux Compress runtime for compressing large04 in seconds: 
+  0.1939905420000000
+
+  Relative compression runtime: 
+  28.7697520222403433
+
+
+  ==================
+  Compression Ratios
+  ==================
+
+  Original input size: 278494 bytes
+  Test  compressed file size: 428092471 bytes
+  Linux compressed file size: 448136005 bytes
+
+  Tested compression ratio: 
+  0.0006505463629142
+
+  Linux Compress compression ratio: 
+  0.0006214497315385
+
+  Ratio of tested compressed file size to Linux compressed file size: 
+  0.9552735469224348
+
+fail (program crashed)
+
+  ======================
+  Decompression Runtimes
+  ======================
+
+  Average LZW runtime for decompressing large04.Z in seconds: 
+  0.0000000000000000
+
+  Average Linux Compress runtime for decompressing largeCompress04.Z in seconds: 
+  0.0000000000000000
+
+
+  Relative decompression runtime: 
+  -nan
+
+  fail. decompressed file does not match source.
+
+================================================================
+ Final Report
+================================================================
+
+  ====================
+  Compression Runtimes
+  ====================
+
+  Total Tested Compression Runtime (seconds): 560.095567300
+  Total Linux Compression Runtime (seconds): 20.508341000
+
+  Average Tested Compression Runtime: 
+  1.4002389182499999
+
+  Average Linux Compression Runtime: 
+  0.0512708525000000
+
+  Relative Compression Runtime Ratio: 
+  27.3106228972884715
+
+  ======================
+  Decompression Runtimes
+  ======================
+
+  Total Tested Decompression Runtime: 1.209723100
+  Total Linux Decompression Runtime: .663119900
+
+  Average Tested Decompression Runtime: 
+  0.0030243077500000
+
+  Average Linux Decompression Runtime: 
+  0.0016577997500000
+
+  Relative Decompression Runtime Ratio: 
+  1.8242901472267685
+
+  ==================
+  Compression Ratios
+  ==================
+
+  Total Uncompressed File Size in bytes: 1376088
+  Total Compressed File Size in bytes: 428457480
+  Total Linux Comp File Size in bytes: 448501014
+
+  Total Tested Compression Ratio: 
+  0.0032117259336912
+
+  Total Linux Compression Ratio: 
+  0.0030681937321105
+
+  Relative Tested Compression: 
+  1.0467806840482747
+                           .
+                          ":"
+                        ___:____     |"\/"|
+                      ,'        `.    \  /
+                      |  o        \___/  |
+                    ~^~^~^~^~^~^~^~^~^~^~^~^~
+
+                           (fail whale)
+
+  The fail whale is friendly and adorable! He is not here to
+  demoralize you, but rather, to bring you comfort and joy
+  in your time of need. "Keep plugging away," he says! "You
+  can do this!"
+
+  Text animals courtesy of Dr. Sean Szumlanski.
